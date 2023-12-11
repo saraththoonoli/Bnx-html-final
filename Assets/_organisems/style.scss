@@ -1,0 +1,496 @@
+@import '../_attom/variabe';
+
+@import '../_molecule/title';
+
+@import '../_molecule/cards';
+
+@import '../_attom/text-box';
+
+.bnx-primary-header {
+
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        display: none;
+
+    }
+
+    .bnx-header-right {
+        width: 50%;
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+
+        h6 {
+            color: #666;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+
+
+        .bnx-header-left {
+            width: 50%;
+
+            img {
+                width: 5px;
+                height: 5px;
+            }
+
+            h6 {
+                color: #666;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+
+}
+
+.navbar {
+
+    .bnx-nav-right {
+        a {
+            text-decoration: none;
+            color: #10385B;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            padding: 3px;
+        }
+
+    }
+}
+
+.btn-head {
+    background-color: rgba(16, 56, 91, 1);
+    color: $white;
+}
+
+#line {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 2px;
+}
+
+
+.hero-section {
+    background-image: url(../../Assets/photos/Backgrounds/Rectangle4012.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bnx-second-discription {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+    display: 100%;
+    width: 70%;
+    padding-bottom: 60px;
+
+}
+
+.bnx-second-head {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 50px;
+    padding-top: 60px;
+
+
+}
+
+.bnx-second-section {
+    padding-top: 25px;
+
+}
+
+.bnx-title-sub-one {
+    color: #10385B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+    text-transform: uppercase;
+    padding-left: 45px;
+}
+
+.bnx-title-sub-two {
+    width: 250px;
+    background-color: #10385B;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 22px;
+
+}
+
+.bnx-second-section-title {
+    display: flex;
+}
+
+.bnx-title-two {
+    padding-left: 45px;
+    color: #10385B;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.bnx-card-section {
+    padding-top: 35px;
+    display: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bnx-section-four-head {
+    padding-top: 40px;
+    padding-left: 45px;
+    color: $white;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.bnx-fourth-section {
+
+    background-image: url(../photos/Backgrounds/Rectangle\ 34624443.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    span,
+    h5,
+    p {
+        color: $white;
+        margin-bottom: 0;
+    }
+
+    .bnx-sec4-icon-box {
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .icon-text {
+
+            display: flex;
+            align-items: center;
+            grid-gap: 0.25rem;
+            font-weight: 500;
+        }
+    }
+
+
+
+
+    .bnx-sec-4-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.bnx-demo-title {
+    color: #10385B;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.bnx-demo-right {
+    h4 {
+        color: #10385B;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+// benifits start
+
+
+.bnx-benifits-section {
+    background-color: #0f2c47;
+    width: 100%;
+    height: 350px;
+    padding-left: 1.5rem;
+    padding-top: 4rem;
+
+    h2 {
+        color: $white;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 2.52px;
+        text-transform: uppercase;
+    }
+
+    .bnx-benifits-section-row {
+        display: flex;
+
+        h3 {
+            color: $white;
+            font-family: Poppins;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+    }
+
+
+}
+
+.bnx-card {
+    margin-bottom: -100px;
+}
+
+// benifits end
+.bnx-sixth-section-div {
+    margin-top: -150px;
+    z-index: 20;
+    position: relative;
+
+
+    .bnx-sixth-section {
+        background-color: #fff;
+        margin: 0 2.5rem;
+        box-shadow: 0px 3px 13px 2px #00000024;
+        padding: 0 1rem;
+        ;
+    }
+
+}
+
+
+
+
+
+.bnx-demo-section {
+    display: flex;
+}
+
+.bnx-demo-section-top {
+    display: flex;
+}
+
+.btn-demo-button {
+    button {
+        margin-left: 40px;
+        background: #10385B;
+        color: $white;
+    }
+}
+
+
+// course value
+.bnx-course-value-session {
+    background: #fff;
+    margin: auto;
+    padding-top: 200px;
+    margin-top: -160px;
+    position: relative;
+    z-index: 19;
+
+    .bnx-course-value {
+        display: flex;
+        justify-content: space-around;
+
+        .bnx-course-icon-tetx {
+            text-align: center;
+            justify-content: space-between;
+
+            h5 {
+                color: #10385B;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                flex-shrink: 0;
+            }
+
+        }
+
+
+    }
+}
+
+.bnx-delivery-text {
+    padding-top: 20px;
+
+    span {
+        color: black;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: Poppins;
+    }
+
+    p {
+        color: black;
+        width: 100%;
+        font-weight: 300;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Poppins;
+    }
+}
+
+
+
+.bnx-about {
+    width: 100%;
+}
+
+.bnx-place-section {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    background: #E9E9E9;
+    padding: 1rem;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33.33% 33.33% 33.33%;
+
+    }
+
+    @media (max-width: 576px) {
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+
+    }
+}
+
+
+.bnx-card {
+    padding-bottom: 150px;
+
+    h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    p {
+        color: #666;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+}
+
+
+.choose-title {
+    text-align: center;
+    background-color: #f0e7e7;
+    margin-bottom: 40px;
+
+    h2 {
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        width: 75%;
+        margin: auto;
+    }
+
+    .bnx-card-bottem {
+        img {
+            width: 100px;
+            padding-top: 18px;
+        }
+
+        h6 {
+            justify-content: baseline;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .bnx-paragraph {
+            justify-content: baseline;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: normal;
+        }
+    }
+
+
+
+}
+
+
+.req-a-demo-sec {
+
+    align-items: center;
+
+
+
+    .req-d-col2 {
+        border: 1px solid #e5e5e5;
+        border-width: 0 0 0 1px;
+    }
+
+    button {
+        background: #10385B;
+        color: $white;
+        border: none;
+    }
+}
